@@ -1,10 +1,10 @@
 # Add  code here!
 def prime?(numbers)
-  if n <= 1
+  if numbers <= 1
     return false
-  elsif n == 2
+  elsif numbers == 2
     return true
   else 
-    (2..n/2).none? { |i| n % i == 0}
+    (2..numbers/2).none? { |x| nnumbers % x == 0}
   end
 end
